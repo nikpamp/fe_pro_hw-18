@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(66, 100, 110);
+}
+
+.counter {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 200px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-plus,
+.button-minus,
+.button-reset {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.button-plus:active,
+.button-minus:active,
+.button-reset:active {
+    position: relative;
+    top: 1px;
+}
